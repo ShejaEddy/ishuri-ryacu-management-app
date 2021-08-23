@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class ChatServices extends Services {
   ProfileServices _profileServices = locator<ProfileServices>();

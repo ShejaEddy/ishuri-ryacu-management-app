@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ourESchool/core/enums/questionLevel.dart';
-import 'package:ourESchool/core/enums/questionType.dart';
+import 'package:ishuriryacu/core/enums/questionLevel.dart';
+import 'package:ishuriryacu/core/enums/questionType.dart';
 
 class Question {
   final String question;

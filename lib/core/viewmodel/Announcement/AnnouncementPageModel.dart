@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/services/AnnouncementServices.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/services/AnnouncementServices.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
-class AnnouncementPageModel extends BaseModel { 
+class AnnouncementPageModel extends BaseModel {
   AnnouncementServices _announcementServices = locator<AnnouncementServices>();
 
   AnnouncementPageModel();

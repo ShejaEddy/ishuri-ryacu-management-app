@@ -1,13 +1,13 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ourESchool/UI/pages/BaseView.dart';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/enums/UserType.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/ProfilePageModel.dart';
+import 'package:ishuriryacu/UI/pages/BaseView.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/ProfilePageModel.dart';
 import 'package:provider/provider.dart';
 
 class ECardPage extends StatefulWidget {

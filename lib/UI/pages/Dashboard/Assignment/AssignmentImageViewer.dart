@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/core/Models/Assignment.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/core/Models/Assignment.dart';
 import 'package:photo_view/photo_view.dart';
 
 class AssignmentImageViewer extends StatefulWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/scheduler.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class ChatTeachersListWidget extends StatefulWidget {
   // final Function onPressed;

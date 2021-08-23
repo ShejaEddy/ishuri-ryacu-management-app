@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class StudentDashboard extends StatefulWidget with AnalyticsScreen {
   StudentDashboard({Key key}) : super(key: key) {

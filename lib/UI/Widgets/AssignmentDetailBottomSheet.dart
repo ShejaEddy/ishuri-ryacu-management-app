@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl/intl.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/pages/Dashboard/Assignment/AssignmentImageViewer.dart';
-import 'package:ourESchool/UI/pages/shared/PDFOpener.dart';
-import 'package:ourESchool/core/Models/Assignment.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/pages/Dashboard/Assignment/AssignmentImageViewer.dart';
+import 'package:ishuriryacu/UI/pages/shared/PDFOpener.dart';
+import 'package:ishuriryacu/core/Models/Assignment.dart';
 
 class AssignmentDetailBottomSheet extends StatefulWidget {
   AssignmentDetailBottomSheet({this.assignment});

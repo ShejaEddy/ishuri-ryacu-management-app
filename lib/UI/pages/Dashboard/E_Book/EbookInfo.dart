@@ -1,7 +1,7 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/swipedetector.dart';
-import 'package:ourESchool/UI/pages/shared/PDFOpener.dart';
-import 'package:ourESchool/core/Models/E-Book.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/swipedetector.dart';
+import 'package:ishuriryacu/UI/pages/shared/PDFOpener.dart';
+import 'package:ishuriryacu/core/Models/E-Book.dart';
 import 'package:flutter/material.dart';
 import 'package:division/division.dart';
 
@@ -230,11 +230,10 @@ class _ReusableEbookBtn extends StatelessWidget {
         ..height(_buttonHeight)
         ..ripple(true)
         ..borderRadius(all: 8),
-      gesture: Gestures()
-        ..onTap(() => onTap()),
-        // ..onLongPress(() => onTap)
-        // ..onDoubleTap(() => onTap())
-        // ..onTapCancel(() => onTap()),
+      gesture: Gestures()..onTap(() => onTap()),
+      // ..onLongPress(() => onTap)
+      // ..onDoubleTap(() => onTap())
+      // ..onTapCancel(() => onTap()),
       child: Center(
         child: Text(
           title,

@@ -1,4 +1,4 @@
-import 'package:ourESchool/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesHelper {

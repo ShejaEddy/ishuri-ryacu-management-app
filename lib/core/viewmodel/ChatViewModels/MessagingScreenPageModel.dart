@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class MessagingScreenPageModel extends BaseModel {
   ChatServices _chatServices = locator<ChatServices>();

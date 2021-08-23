@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Utility/custom_icons.dart';
-import 'package:ourESchool/UI/Widgets/ColumnReusableCardButton.dart';
-import 'package:ourESchool/UI/pages/Dashboard/Announcement/AnnouncementPage.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/pages/Dashboard/Assignment/AssignmentPage.dart';
-import 'package:ourESchool/UI/pages/Dashboard/E-Card/E-CardPage.dart';
-import 'package:ourESchool/core/Models/User.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Utility/custom_icons.dart';
+import 'package:ishuriryacu/UI/Widgets/ColumnReusableCardButton.dart';
+import 'package:ishuriryacu/UI/pages/Dashboard/Announcement/AnnouncementPage.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/pages/Dashboard/Assignment/AssignmentPage.dart';
+import 'package:ishuriryacu/UI/pages/Dashboard/E-Card/E-CardPage.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
 
 class BottomSheetChildrensWidget extends StatefulWidget {
   const BottomSheetChildrensWidget({Key key, this.user}) : super(key: key);

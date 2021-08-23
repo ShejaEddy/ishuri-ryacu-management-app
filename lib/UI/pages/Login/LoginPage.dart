@@ -1,5 +1,5 @@
 import 'package:custom_radio_grouped_button/custom_radio_grouped_button.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 import 'dart:ui' as ui;
 
 class LoginPage extends StatefulWidget {

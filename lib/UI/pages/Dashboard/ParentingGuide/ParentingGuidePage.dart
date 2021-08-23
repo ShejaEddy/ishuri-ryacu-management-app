@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/AnnouncementCard.dart';
-import 'package:ourESchool/UI/Widgets/ParentingGuideCard.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/core/Models/Announcement.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/AnnouncementCard.dart';
+import 'package:ishuriryacu/UI/Widgets/ParentingGuideCard.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/core/Models/Announcement.dart';
 import 'package:flutter/material.dart';
 
 class ParentingGuidePage extends StatefulWidget {

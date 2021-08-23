@@ -1,8 +1,8 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/UI/resources/custom_expansion_panel.dart';
-import 'package:ourESchool/UI/resources/months_color.dart';
-import 'package:ourESchool/core/Models/holiday_data.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/UI/resources/custom_expansion_panel.dart';
+import 'package:ishuriryacu/UI/resources/months_color.dart';
+import 'package:ishuriryacu/core/Models/holiday_data.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

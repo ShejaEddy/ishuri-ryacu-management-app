@@ -1,12 +1,12 @@
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/enums/AuthErrors.dart';
-import 'package:ourESchool/core/enums/ButtonType.dart';
-import 'package:ourESchool/core/enums/LoginScreenReturnType.dart';
-import 'package:ourESchool/core/enums/UserType.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/services/AuthenticationServices.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/enums/AuthErrors.dart';
+import 'package:ishuriryacu/core/enums/ButtonType.dart';
+import 'package:ishuriryacu/core/enums/LoginScreenReturnType.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/services/AuthenticationServices.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class LoginPageModel extends BaseModel {
   final _authenticationService = locator<AuthenticationServices>();

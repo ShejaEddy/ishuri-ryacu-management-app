@@ -2,13 +2,13 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/pages/BaseView.dart';
-import 'package:ourESchool/core/Models/Assignment.dart';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/AssignmentPageModel.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/pages/BaseView.dart';
+import 'package:ishuriryacu/core/Models/Assignment.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/AssignmentPageModel.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
 import 'package:provider/provider.dart';
 
 class AssignmentBottomSheet extends StatefulWidget {

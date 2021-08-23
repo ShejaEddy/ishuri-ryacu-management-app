@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:path/path.dart' as p;
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:ourESchool/core/services/Services.dart';
+import 'package:ishuriryacu/core/services/Services.dart';
 
 class StorageServices extends Services {
   StorageServices() {

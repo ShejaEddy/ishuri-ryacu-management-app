@@ -1,14 +1,14 @@
 import 'package:intl/intl.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/pages/shared/AnnouncementViewer.dart';
-import 'package:ourESchool/core/Models/Announcement.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/pages/shared/AnnouncementViewer.dart';
+import 'package:ishuriryacu/core/Models/Announcement.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/enums/UserType.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/ProfilePageModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/ProfilePageModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class ParentingGuideCard extends StatefulWidget {
   ParentingGuideCard({@required this.announcement});

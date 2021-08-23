@@ -1,7 +1,6 @@
-
-import 'package:ourESchool/core/Models/holiday_data.dart';
-import 'package:ourESchool/core/helpers/shared_preferences_helper.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/holiday_data.dart';
+import 'package:ishuriryacu/core/helpers/shared_preferences_helper.dart';
+import 'package:ishuriryacu/locator.dart';
 import 'calendarific_ApiCaller.dart';
 
 class RepositoryCalendarific {
@@ -11,16 +10,13 @@ class RepositoryCalendarific {
   Future<HolidayData> getHolidays(String countryCode) =>
       _calendarificProvider.getHolidays(countryCode);
 
-  Future<String> getCountryCode() =>
-    _sharedPreferencesHelper.getCountryCode();
+  Future<String> getCountryCode() => _sharedPreferencesHelper.getCountryCode();
 
-  setCountryCode(String countryCode) => 
-    _sharedPreferencesHelper.setCountryCode(countryCode);
-  
-  Future<String> getCountryName() =>
-    _sharedPreferencesHelper.getCountryName();
+  setCountryCode(String countryCode) =>
+      _sharedPreferencesHelper.setCountryCode(countryCode);
 
-  setCountryName(String countryName) => 
-    _sharedPreferencesHelper.setCountryName(countryName);
+  Future<String> getCountryName() => _sharedPreferencesHelper.getCountryName();
 
+  setCountryName(String countryName) =>
+      _sharedPreferencesHelper.setCountryName(countryName);
 }

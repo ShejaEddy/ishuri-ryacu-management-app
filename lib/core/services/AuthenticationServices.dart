@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class AuthenticationServices extends Services {
   // Future handleGoogleSignIn() async {

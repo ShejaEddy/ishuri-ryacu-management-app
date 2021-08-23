@@ -1,9 +1,9 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/BookGridViewCard.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/core/Models/E-Book.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/BookGridViewCard.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/core/Models/E-Book.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
 import 'EbookInfo.dart';
 
 class EBookSelect extends StatelessWidget {
@@ -29,16 +29,16 @@ class EBookSelect extends StatelessWidget {
         ),
         itemCount: ebooks.length,
         itemBuilder: (context, index) => BookGridViewCard(
-              eBook: ebooks[index],
-              onTap: () {
-                kopenPage(
-                  context,
-                  EBookInfo(
-                    eBook: ebooks[index],
-                  ),
-                );
-              },
-            ),
+          eBook: ebooks[index],
+          onTap: () {
+            kopenPage(
+              context,
+              EBookInfo(
+                eBook: ebooks[index],
+              ),
+            );
+          },
+        ),
       ),
     );
   }

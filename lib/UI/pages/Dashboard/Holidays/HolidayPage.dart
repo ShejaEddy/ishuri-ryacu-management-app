@@ -1,13 +1,13 @@
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/UI/Widgets/custom_country_code_picker/custom_country_code_picker.dart';
-import 'package:ourESchool/UI/resources/months_color.dart';
-import 'package:ourESchool/core/Models/holiday_data.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/UI/Widgets/custom_country_code_picker/custom_country_code_picker.dart';
+import 'package:ishuriryacu/UI/resources/months_color.dart';
+import 'package:ishuriryacu/core/Models/holiday_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/HolidayModel.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/HolidayModel.dart';
 import 'package:provider/provider.dart';
 import '../../BaseView.dart';
 import 'holiday_details_page.dart';
@@ -155,7 +155,7 @@ class MonthCardsState extends State<MonthCards> {
         for (var holiday in holidayList) {
           if (holidayDates.isEmpty) {
             holidayDates.add(holiday.date.datetime.day);
-          } else if(!holidayDates.contains(holiday.date.datetime.day)) {
+          } else if (!holidayDates.contains(holiday.date.datetime.day)) {
             holidayDates.add(holiday.date.datetime.day);
           }
         }
@@ -283,10 +283,10 @@ class MonthCardsState extends State<MonthCards> {
                               context,
                               MaterialPageRoute(
                                 builder: (context) => HolidayDetailsPage(
-                                      monthIndex: monthIndex,
-                                      listOfHolidayList: listOfHolidayLists,
-                                      countryName: widget.countryName,
-                                    ),
+                                  monthIndex: monthIndex,
+                                  listOfHolidayList: listOfHolidayLists,
+                                  countryName: widget.countryName,
+                                ),
                               ),
                             );
                           }

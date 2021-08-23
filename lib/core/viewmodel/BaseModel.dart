@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/helpers/shared_preferences_helper.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/helpers/shared_preferences_helper.dart';
 
 import '../../locator.dart';
 

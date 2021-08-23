@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/Models/UserDataLogin.dart';
-import 'package:ourESchool/core/Server.dart';
-import 'package:ourESchool/core/helpers/shared_preferences_helper.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/Models/UserDataLogin.dart';
+import 'package:ishuriryacu/core/Server.dart';
+import 'package:ishuriryacu/core/helpers/shared_preferences_helper.dart';
+import 'package:ishuriryacu/locator.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 
 abstract class Services {

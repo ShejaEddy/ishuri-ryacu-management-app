@@ -1,5 +1,5 @@
-import 'package:ourESchool/core/helpers/FirebaseAnalytics.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/core/helpers/FirebaseAnalytics.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class MainDashboard extends StatefulWidget with AnalyticsScreen {
   MainDashboard({Key key}) : super(key: key) {

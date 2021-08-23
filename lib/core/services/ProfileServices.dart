@@ -1,6 +1,6 @@
 // import 'package:http/http.dart' as http;
 import 'package:dio/dio.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class ProfileServices extends Services {
   StorageServices storageServices = locator<StorageServices>();

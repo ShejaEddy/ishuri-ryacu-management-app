@@ -1,5 +1,5 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/core/Models/E-Book.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/core/Models/E-Book.dart';
 import 'package:flutter/material.dart';
 
 class BookGridViewCard extends StatelessWidget {

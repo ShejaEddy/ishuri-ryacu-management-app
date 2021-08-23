@@ -1,6 +1,6 @@
-import 'package:ourESchool/UI/Widgets/AssignmentBottomSheet.dart';
-import 'package:ourESchool/UI/Widgets/AssignmentDetailBottomSheet.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/UI/Widgets/AssignmentBottomSheet.dart';
+import 'package:ishuriryacu/UI/Widgets/AssignmentDetailBottomSheet.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class AssignmentsPage extends StatefulWidget with AnalyticsScreen {
   AssignmentsPage({Key key, this.standard = ''}) : super(key: key) {

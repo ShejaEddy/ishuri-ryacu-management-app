@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class CreateAnnouncement extends StatefulWidget {
   CreateAnnouncement({Key key}) : super(key: key);

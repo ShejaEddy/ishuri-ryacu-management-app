@@ -1,11 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:http/http.dart' as http;
-import 'package:ourESchool/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
 import 'dart:convert';
-import 'package:ourESchool/core/Models/Announcement.dart';
-import 'package:ourESchool/core/services/Services.dart';
-import 'package:ourESchool/core/services/StorageServices.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/Announcement.dart';
+import 'package:ishuriryacu/core/services/Services.dart';
+import 'package:ishuriryacu/core/services/StorageServices.dart';
+import 'package:ishuriryacu/locator.dart';
 import 'package:path/path.dart' as p;
 
 class AnnouncementServices extends Services {

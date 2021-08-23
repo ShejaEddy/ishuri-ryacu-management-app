@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/resources/months_color.dart';
-import 'package:ourESchool/core/Models/holiday_data.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/services/repository_calendarific.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/UI/resources/months_color.dart';
+import 'package:ishuriryacu/core/Models/holiday_data.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/services/repository_calendarific.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class HolidayModel extends BaseModel {
   final _repositoryCalendarific = locator<RepositoryCalendarific>();

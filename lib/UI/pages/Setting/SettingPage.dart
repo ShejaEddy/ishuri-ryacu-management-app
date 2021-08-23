@@ -1,15 +1,15 @@
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/DynamicThemeChanger.dart';
-import 'package:ourESchool/UI/pages/About/About.dart';
-import 'package:ourESchool/UI/pages/Login/ForgotPassword.dart';
-import 'package:ourESchool/UI/pages/Profiles/GuardianProfile.dart';
-import 'package:ourESchool/UI/pages/Profiles/ProfilePage.dart';
-import 'package:ourESchool/UI/pages/WelcomeScreen.dart';
-import 'package:ourESchool/core/enums/UserType.dart';
-import 'package:ourESchool/core/helpers/shared_preferences_helper.dart';
-import 'package:ourESchool/core/viewmodel/LoginPageModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/DynamicThemeChanger.dart';
+import 'package:ishuriryacu/UI/pages/About/About.dart';
+import 'package:ishuriryacu/UI/pages/Login/ForgotPassword.dart';
+import 'package:ishuriryacu/UI/pages/Profiles/GuardianProfile.dart';
+import 'package:ishuriryacu/UI/pages/Profiles/ProfilePage.dart';
+import 'package:ishuriryacu/UI/pages/WelcomeScreen.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/helpers/shared_preferences_helper.dart';
+import 'package:ishuriryacu/core/viewmodel/LoginPageModel.dart';
+import 'package:ishuriryacu/locator.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
@@ -44,7 +44,8 @@ class _SettingPageState extends State<SettingPage> {
                   context: context,
                   icon: FontAwesomeIcons.user,
                   onTap: () {
-                    UserType userType = Provider.of<UserType>(context, listen: false);
+                    UserType userType =
+                        Provider.of<UserType>(context, listen: false);
                     if (userType == UserType.PARENT) {
                       kopenPage(context, GuardianProfilePage());
                     } else {
@@ -58,9 +59,10 @@ class _SettingPageState extends State<SettingPage> {
                   icon: FontAwesomeIcons.signOutAlt,
                   onTap: () async {
                     await model.logoutUser();
-                    Navigator.pushReplacement(context, MaterialPageRoute(
-                      builder: (context) => WelcomeScreen()
-                    ),);
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => WelcomeScreen()),
+                    );
                     // Navigator.pushNamedAndRemoveUntil(
                     //     context, WelcomeScreen.id, (r) => false);
                   },

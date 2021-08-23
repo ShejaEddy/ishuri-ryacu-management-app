@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 SharedPreferencesHelper _sharedPreferencesHelper =
     locator<SharedPreferencesHelper>();

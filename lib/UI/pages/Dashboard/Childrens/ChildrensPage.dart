@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/BottomSheetChildrensWidget.dart';
-import 'package:ourESchool/UI/Widgets/ChildrenGridViewCard.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/UI/pages/BaseView.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/ProfilePageModel.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/BottomSheetChildrensWidget.dart';
+import 'package:ishuriryacu/UI/Widgets/ChildrenGridViewCard.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/UI/pages/BaseView.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/ProfilePageModel.dart';
 
 class ChildrensPage extends StatelessWidget {
   @override
@@ -41,7 +41,8 @@ class ChildrensPage extends StatelessWidget {
                         itemCount: model.childrens.length,
                         itemBuilder: (context, index) {
                           return Container(
-                            constraints: BoxConstraints(maxHeight: 200, maxWidth: 200),
+                            constraints:
+                                BoxConstraints(maxHeight: 200, maxWidth: 200),
                             child: ChildrenGridViewCard(
                               user: model.childrens[index],
                               onTap: () {

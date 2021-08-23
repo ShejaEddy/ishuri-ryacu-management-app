@@ -1,4 +1,4 @@
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class AnnouncementPage extends StatefulWidget with AnalyticsScreen {
   AnnouncementPage({

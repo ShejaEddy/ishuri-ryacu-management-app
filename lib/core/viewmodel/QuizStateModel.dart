@@ -1,8 +1,8 @@
-import 'package:ourESchool/core/Models/ExamTopic.dart';
-import 'package:ourESchool/core/Models/Question.dart';
+import 'package:ishuriryacu/core/Models/ExamTopic.dart';
+import 'package:ishuriryacu/core/Models/Question.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
 
 class QuizStateModel extends BaseModel {
   double _progress = 0;

@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ourESchool/UI/Widgets/camera_button.dart';
-import 'package:ourESchool/UI/Widgets/rounded_button.dart';
-import 'package:ourESchool/UI/Widgets/switch_icon.dart';
+import 'package:ishuriryacu/UI/Widgets/camera_button.dart';
+import 'package:ishuriryacu/UI/Widgets/rounded_button.dart';
+import 'package:ishuriryacu/UI/Widgets/switch_icon.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 

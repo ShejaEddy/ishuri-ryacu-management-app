@@ -1,7 +1,7 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class ChildrenGridViewCard extends StatelessWidget {
   final AppUser user;

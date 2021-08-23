@@ -1,11 +1,11 @@
-import 'package:ourESchool/UI/Utility/Resources.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/ReusableRoundedButton.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/ReusableRoundedButton.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/core/enums/AuthErrors.dart';
-import 'package:ourESchool/core/services/AuthenticationServices.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/enums/AuthErrors.dart';
+import 'package:ishuriryacu/core/services/AuthenticationServices.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class ForgotPasswordPage extends StatefulWidget {
   ForgotPasswordPage({Key key}) : super(key: key);

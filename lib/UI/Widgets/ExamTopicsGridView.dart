@@ -1,7 +1,7 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/core/Models/ExamTopic.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/core/Models/ExamTopic.dart';
 import 'package:flutter/material.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
 
 class ExamTopicsGridView extends StatelessWidget {
   final ExamTopic examTopic;
@@ -35,8 +35,7 @@ class ExamTopicsGridView extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius:
-                          new BorderRadius.all(Radius.circular(10.0)),
+                      borderRadius: new BorderRadius.all(Radius.circular(10.0)),
                       image: DecorationImage(
                         image: AssetImage(assetsString.no_image_available),
                         fit: BoxFit.cover,

@@ -1,8 +1,8 @@
-import 'package:ourESchool/core/Models/Announcement.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/services/AnnouncementServices.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/Announcement.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/services/AnnouncementServices.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class CreateAnnouncementModel extends BaseModel {
   AnnouncementServices announcementServices = locator<AnnouncementServices>();

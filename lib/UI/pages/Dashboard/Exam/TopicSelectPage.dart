@@ -1,11 +1,11 @@
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/ExamTopicsGridView.dart';
-import 'package:ourESchool/UI/Widgets/TopBar.dart';
-import 'package:ourESchool/core/Models/ExamTopic.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/ExamTopicsGridView.dart';
+import 'package:ishuriryacu/UI/Widgets/TopBar.dart';
+import 'package:ishuriryacu/core/Models/ExamTopic.dart';
 import 'package:division/division.dart';
 import 'package:flutter/material.dart';
 import 'QuizPage.dart';
-import 'package:ourESchool/UI/Utility/Resources.dart';
+import 'package:ishuriryacu/UI/Utility/Resources.dart';
 
 class TopicSelectPage extends StatelessWidget {
   const TopicSelectPage({Key key}) : super(key: key);

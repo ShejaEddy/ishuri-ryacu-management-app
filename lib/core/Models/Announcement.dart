@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:ourESchool/core/enums/announcementType.dart';
+import 'package:ishuriryacu/core/enums/announcementType.dart';
 
 class Announcement {
   String caption;

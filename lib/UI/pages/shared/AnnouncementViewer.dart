@@ -1,7 +1,7 @@
 import 'package:intl/intl.dart';
-import 'package:ourESchool/UI/Utility/constants.dart';
-import 'package:ourESchool/UI/Widgets/swipedetector.dart';
-import 'package:ourESchool/core/Models/Announcement.dart';
+import 'package:ishuriryacu/UI/Utility/constants.dart';
+import 'package:ishuriryacu/UI/Widgets/swipedetector.dart';
+import 'package:ishuriryacu/core/Models/Announcement.dart';
 import 'package:flutter/material.dart';
 
 class AnnouncementViewer extends StatelessWidget {

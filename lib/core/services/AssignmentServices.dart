@@ -1,6 +1,6 @@
 import 'package:path/path.dart' as p;
 import 'package:http/http.dart' as http;
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/imports.dart';
 
 class AssignmentServices extends Services {
   StorageServices _storageServices = locator<StorageServices>();

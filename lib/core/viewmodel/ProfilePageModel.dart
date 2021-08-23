@@ -1,10 +1,10 @@
 import 'dart:async';
-import 'package:ourESchool/core/Models/User.dart';
-import 'package:ourESchool/core/enums/UserType.dart';
-import 'package:ourESchool/core/enums/ViewState.dart';
-import 'package:ourESchool/core/services/ProfileServices.dart';
-import 'package:ourESchool/core/viewmodel/BaseModel.dart';
-import 'package:ourESchool/locator.dart';
+import 'package:ishuriryacu/core/Models/User.dart';
+import 'package:ishuriryacu/core/enums/UserType.dart';
+import 'package:ishuriryacu/core/enums/ViewState.dart';
+import 'package:ishuriryacu/core/services/ProfileServices.dart';
+import 'package:ishuriryacu/core/viewmodel/BaseModel.dart';
+import 'package:ishuriryacu/locator.dart';
 
 class ProfilePageModel extends BaseModel {
   final _profileServices = locator<ProfileServices>();

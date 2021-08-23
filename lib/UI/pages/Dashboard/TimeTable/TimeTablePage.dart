@@ -1,5 +1,5 @@
-import 'package:ourESchool/UI/pages/Dashboard/TimeTable/TeachersTimeTable.dart';
-import 'package:ourESchool/imports.dart';
+import 'package:ishuriryacu/UI/pages/Dashboard/TimeTable/TeachersTimeTable.dart';
+import 'package:ishuriryacu/imports.dart';
 import 'StudentsTimeTable.dart';
 
 class TimeTablePage extends StatefulWidget {
